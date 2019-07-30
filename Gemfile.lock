@@ -1,15 +1,20 @@
+GIT
+  remote: https://github.com/zendesk/ruby-kafka
+  revision: 677421db4a1f1e5b3b214788f0210b08f7eee1e6
+  specs:
+    ruby-kafka (0.7.9)
+      digest-crc
+
 GEM
   remote: https://rubygems.org/
   specs:
     digest-crc (0.4.1)
-    ruby-kafka (0.7.9)
-      digest-crc
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ruby-kafka (~> 0.7.9)
+  ruby-kafka!
 
 BUNDLED WITH
    2.0.2

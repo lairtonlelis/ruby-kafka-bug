@@ -1,3 +1,7 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem 'ruby-kafka', '~> 0.7.9'
+source 'https://rubygems.org'
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem 'ruby-kafka', github: 'zendesk/ruby-kafka'
